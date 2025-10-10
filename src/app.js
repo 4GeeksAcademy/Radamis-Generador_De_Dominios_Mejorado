@@ -20,7 +20,7 @@ window.onload = function () {
         for(let d=0; d<ext.length; d++){
 
           let resultado = "<li>" + pronoun[a] + adj[b] + noun[c] + ext[d] + "</li>";
-         list = resultado + "</ul>"
+         list = resultado + "</ul>";
          
          console.log(resultado);
 

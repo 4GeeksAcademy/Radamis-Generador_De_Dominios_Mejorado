@@ -19,12 +19,10 @@ window.onload = function () {
       for(let c=0; c<noun.length; c++){
         for(let d=0; d<ext.length; d++){
 
-          let resultado = "<li>" + pronoun[a] + adj[b] + noun[c] + ext[d] + "</li>";
-         list = resultado + "</ul>";
-         
-         console.log(resultado);
-
-        
+          list = list + "<li>" + pronoun[a] + adj[b] + noun[c] + ext[d] + "</li>";
+                  
+         console.log(list);
+         list = list + "</ul>";
         }
       }
     } 

@@ -19,7 +19,7 @@ window.onload = function () {
 
           list = list + "<li>" + pronoun[a] + adj[b] + noun[c] + ext[d] + "</li>" + "</ul>";
           console.log(list); } } }  }
-  document.getElementById("dominio").innerHTML = list;
+  document.getElementById("dominios").innerHTML = list;
   console.log("Hello Rigo from the console!"); };
 
 
